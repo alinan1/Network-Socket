@@ -6,4 +6,5 @@ Demonstrates creating sockets, establishing a TCP connection, exchanging message
 1. Server.py binds to a a given TCP port and listens.
 2. Client.py connects to the server’s IP + port.
 3. The client sends lines of text, and the server reverses each line and swaps letter cases before sending the response back.
-4. Traffic is captured in `.pcap` and inspected in Wireshark (handshake, payload, etc.).
+4. Traffic is captured in `.pcap` and inspected in Wireshark to analyze TCP handshakes, payload structure, ephemeral ports, and loopback vs. remote interfaces.
+
